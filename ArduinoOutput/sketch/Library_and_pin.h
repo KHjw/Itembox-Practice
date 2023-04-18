@@ -11,7 +11,7 @@
 #define NEXTIONHWSERIAL_RX_PIN 39
 #define NEXTIONHWSERIAL_TX_PIN 33
 
-#define BUTTON_PIN      25
-#define LED_BUTTON      26
+#define BUTTON1_PIN     25
+#define BUTTON2_PIN     26
 
 #endif

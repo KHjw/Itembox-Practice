@@ -4,7 +4,7 @@
 #include "Library_and_pin.h"
 
 
-//****************************************Nextion SETUP****************************************************************
+//****************************************Nextion SETUP**************************************************
 HardwareSerial nexHwSerial(2);
 String nextion_str = "";
 int currner_page_num;
@@ -17,5 +17,9 @@ void NextionReceived();
 void ExpSend();
 void BatteryPackSend();
 */
+
+
+//****************************************ENCODER SETUP****************************************************************
+void EncoderInit();
 
 #endif

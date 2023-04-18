@@ -9,8 +9,6 @@
  *
  */
 
-
-
 #include "itembox.h"
 
 int button_status = 0;
@@ -18,28 +16,12 @@ int button_status = 0;
 void setup()
 {
     Serial.begin(115200);
+    Serial.println("------Itembox-Practice Initialized------");
+    NextionInit();
 }
 
 
 void loop()
 {
     
-    sendCommand("page loading");
-    delay (1000);
-    sendCommand("page loading1");
-    delay (1000);
-    sendCommand("page loading2");
-    delay (1000);
-    sendCommand("page loading3");
-    delay (1000);
-    sendCommand("page batterytag");
-    delay (1000);
-    
-/*
-    if(button_status == 1)s
-    {
-        digitalWrite(LED_BUTTON, HIGH);
-        sendCommand("page main");
-    }
-*/
 }
